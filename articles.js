@@ -28,4 +28,16 @@ const articles =
         Cette formation mène à un Titre RCNP niveau II (équivalent à Bac+3).<p>
         <p>Passionné et créatif, je passe mon temps à élaborer site internet, jeux-vidéos, illustrations et bien d'autres choses ...</p>`
     },
+    {
+        title: `ME CONTACTER`,
+        para:
+        `<div id="form">
+        <form method="POST" action="https://formspree.io/marc.berger75020@gmail.com">
+            <input type="name" name="name" placeholder="Nom">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">ENVOYER</button>
+        </form>
+        </div>`
+    },
 ]

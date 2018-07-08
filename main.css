@@ -43,7 +43,7 @@ body {
 }
 
 .main_article {
-    padding: 10px;
+    padding: 20px;
     background-color: #ffffff;
     margin: 20px;
     overflow: auto;
@@ -73,6 +73,33 @@ li span {
 
 * p {
     font-size: 15px;
+}
+
+#form {
+    z-index: 99;
+    padding: 35px;
+    padding-top: 5px; padding-bottom: 5px;
+    background-color: #ffffff;
+}
+
+#form * {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#form button {
+    background-color: #32cd32;
+    color: #ffffff;
+    border: none;
+    height: 30px;
+}
+
+#form button:hover {
+    background-color: #24e624;
+}
+
+#form textarea {
+    height: 100px;
 }
 
 .footer {
