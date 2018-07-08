@@ -6,7 +6,7 @@ const articles =
     //     ``
     // },
     {
-        title: `ACCUEIL`,
+        title: `PROJETS`,
         para:
         `<p style="text-align: center;">Voici les projets que j'ai réalisé cette année 2018.</p><br>
         <strong>Projets personnels</strong> :
