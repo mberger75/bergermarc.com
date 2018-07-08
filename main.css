@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-* {
+body {
+    min-height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: #E8EAED;
     color: #000000;
 }
 
-body {
-    background-color: #E8EAED;
-    min-height: 100%;
+* a {
+    color: #32cd32;
+}
+
+
+* a:hover {
+    text-decoration: none;
+    color: #24e624;
 }
 
 .header {
     width: 100%;
-    height: 125px;
-    background-color: #ffffff;
-    border-bottom: 3px solid #32cd32;
+    height: 55px;
+    background-color: rgba(255,255,255, 0.9);
+    border-bottom: 1px solid #32cd32;
     position: fixed;
     text-align: center;
 }
@@ -23,13 +30,12 @@ body {
     font-size: 20px;
     text-align: center;
     color: #32cd32;
-    margin-top: 55px;
 }
 
 .profilPicture {
-    position: absolute;
-    top: 10px; left: 10px;
     z-index: 99;
+    float: right;
+    margin: 5px;
     width: 100px; height: 100px;
     border-radius: 100%;
     border: 1px solid #32cd32;
@@ -37,7 +43,7 @@ body {
 
 .main {
     background-color: #E8EAED;
-    padding-top: 160px;
+    padding-top: 100px;
     margin-bottom: 90px;
     width: 700px;
 }
@@ -52,7 +58,7 @@ body {
 
 .main_list {
     display: inline-flex;
-    width: 35%;
+    width: 45%;
     padding: 10px;
     margin-right: 10px;
 }
@@ -77,6 +83,7 @@ li span {
     font-size: 23px;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 15px;
 }
 
 .main_para {
@@ -96,7 +103,14 @@ li span {
 
 #form * {
     margin-bottom: 10px;
+    padding: 5px;
     width: 100%;
+}
+
+#form *:focus {
+    outline: none !important;
+    border: 1px solid #24e624;
+    box-shadow: 0 0 5px #24e624;
 }
 
 #form button {
@@ -115,8 +129,8 @@ li span {
 }
 
 .footer {
-    background-color: #ffffff;
-    border-top: 3px solid #32cd32;
+    background-color: rgba(255,255,255, 0.9);
+    border-top: 1px solid #32cd32;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -159,18 +173,12 @@ li span {
         margin-bottom: 15px;
     }
 
-    .header { height: 115px; }
-
     .profilPicture {
         position: relative;
         margin: 0; padding: 0;
         margin-top: 5px;
         top: 0; left: 0;
         width: 60px; height: 60px;
-    }
-
-    .header_title {
-        margin-top: 10px;
     }
 
     .main_list {
@@ -181,4 +189,6 @@ li span {
 
 @media screen and (max-width: 415px) { 
     .main { width: 300px; }
+
+    .header { height: 70px; }
 }
