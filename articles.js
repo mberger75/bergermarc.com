@@ -13,11 +13,12 @@ const articles =
         <div class="main_list">
         <ul>
             <h3 class="list-title">Projets personnels :</h3>
-            <li><span><a href="https://codepen.io/evod/full/odGGMY/" target="_blank">Twitch API</a></span></li>
-            <li><span><a href="https://codepen.io/evod/full/vjemJx/" target="_blank">Wikipedia API</a></span></li>
+            <li><span><a href="https://www.bergermarc.com/commodore/" target="_blank">Émulateur Commodore 64</a></span></li>
+            <li><span><a href="https://github.com/mberger75/metalhead/" target="_blank">Metalhead query-selectors</a></span></li>
+            <li><span><a href="https://www.bergermarc.com/wiki/" target="_blank">Moteur de recherches Wikipedia</a></span></li>
+            <li><span><a href="https://codepen.io/evod/full/odGGMY/" target="_blank">Twitch Book</a></span></li>
             <li><span><a href="https://codepen.io/evod/full/zjEGRx/" target="_blank">Application Météo</a></span></li>
             <li><span><a href="https://codepen.io/evod/full/LmzPQR/" target="_blank">Générateur de Citations</a></span></li>
-            <li><span><a href="https://github.com/mberger75/metalhead" target="_blank">Metalhead query-selectors</a></span></li>
         </ul>
         </div>
         <div class="main_list">
